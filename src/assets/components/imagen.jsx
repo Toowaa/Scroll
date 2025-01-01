@@ -15,12 +15,12 @@ function Imagen() {
             const scrollPorcent = scrollPosition / maxScrollValue;
             const frame = Math.floor(scrollPorcent * maxFrames) || 1;
             const id = frame.toString().padStart(3, '0');
-            img.src = `/Scroll/frames/moto-${id}.webp`;
+            img.src = `/Scroll/frames/moto-${id}.webp`;  
         });
     }, []);
     
     return (
-        <img id="img" src='/Scroll/frames/moto-001.webp' alt='Moto'></img>
+        <img id="img" src='/Scroll/frames/moto-001.webp' alt='Moto'></img>  
     );
 }
 

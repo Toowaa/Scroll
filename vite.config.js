@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://Toowaa.github.io/Scroll', // Link page
+  base: '/Scroll/', // Solo el nombre del repositorio con barras
 })
